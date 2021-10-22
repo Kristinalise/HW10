@@ -33,7 +33,7 @@ public class Date {
 			return year;
 		}
 		
-		// Month should be one of the twelve months of the year listed above
+		// Month should be valid for the given day
 			public void setMonth(Month theMonth){
 				if(isValidDay(theMonth, day)){
 					month = theMonth;
